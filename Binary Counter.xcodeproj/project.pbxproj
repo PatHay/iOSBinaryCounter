@@ -14,6 +14,7 @@
 		878EE8761FB3FF3300B99643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878EE8741FB3FF3300B99643 /* LaunchScreen.storyboard */; };
 		878EE8811FB3FF3300B99643 /* Binary_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EE8801FB3FF3300B99643 /* Binary_CounterTests.swift */; };
 		878EE88C1FB3FF3300B99643 /* Binary_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EE88B1FB3FF3300B99643 /* Binary_CounterUITests.swift */; };
+		878EE89A1FB4ACC200B99643 /* BinaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878EE8991FB4ACC200B99643 /* BinaryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		878EE8871FB3FF3300B99643 /* Binary CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binary CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		878EE88B1FB3FF3300B99643 /* Binary_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary_CounterUITests.swift; sourceTree = "<group>"; };
 		878EE88D1FB3FF3300B99643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878EE8991FB4ACC200B99643 /* BinaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				878EE86B1FB3FF3300B99643 /* AppDelegate.swift */,
 				878EE86D1FB3FF3300B99643 /* ViewController.swift */,
 				878EE86F1FB3FF3300B99643 /* Main.storyboard */,
+				878EE8991FB4ACC200B99643 /* BinaryTableViewCell.swift */,
 				878EE8721FB3FF3300B99643 /* Assets.xcassets */,
 				878EE8741FB3FF3300B99643 /* LaunchScreen.storyboard */,
 				878EE8771FB3FF3300B99643 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878EE89A1FB4ACC200B99643 /* BinaryTableViewCell.swift in Sources */,
 				878EE86E1FB3FF3300B99643 /* ViewController.swift in Sources */,
 				878EE86C1FB3FF3300B99643 /* AppDelegate.swift in Sources */,
 			);
