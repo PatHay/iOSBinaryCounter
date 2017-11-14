@@ -35,7 +35,7 @@ extension ViewController: UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "BinaryCell", for: indexPath) as! BinaryTableViewCell
-        cell.delegate = self
+        cell.x = self
         cell.valueLabel.text = String(describing: pow(10, indexPath.row))
         
         return cell
